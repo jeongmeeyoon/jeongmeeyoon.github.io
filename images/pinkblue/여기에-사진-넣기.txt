@@ -1,0 +1,1 @@
+이 폴더에 pinkblue-01.jpg, pinkblue-02.jpg ... 순서로 사진을 넣으세요. (소문자, .jpg)

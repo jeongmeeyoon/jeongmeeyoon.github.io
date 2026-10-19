@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>윤정미 JeongMee Yoon</title>
+<meta name="description" content="사진가 윤정미(JeongMee Yoon)의 공식 홈페이지. 핑크 & 블루 프로젝트 등 작업, 약력, 글, 출판, 연락처.">
+<meta property="og:title" content="윤정미 JeongMee Yoon">
+<meta property="og:description" content="Photographer JeongMee Yoon — Works, CV, Texts, Books, Contact">
+<meta property="og:type" content="website">
+<!-- 대표 이미지를 정하면 아래 주석을 풀고 경로를 맞춰 주세요 (카카오톡·SNS 공유 미리보기) -->
+<!-- <meta property="og:image" content="images/pinkblue/pinkblue-01.jpg"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<aside class="side">
+  <div class="bar">
+    <a href="#home" class="name"><b data-k="name"></b><span data-k="nameAlt"></span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="drawer">Menu</button>
+  </div>
+  <a href="#home" class="name"><b data-k="name"></b><span data-k="nameAlt"></span></a>
+  <div class="drawer" id="drawer">
+    <nav aria-label="Main"><ul id="nav"></ul></nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="ko" id="lang-ko">KOR</button><span aria-hidden="true">/</span><button data-lang="en" id="lang-en">ENG</button>
+    </div>
+  </div>
+</aside>
+
+<main id="main">
+  <noscript>이 사이트는 JavaScript가 필요합니다. / This site requires JavaScript.</noscript>
+</main>
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image viewer"></div>
+
+<!-- 내용(작품·약력·글)은 data.js, 화면 동작은 script.js -->
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
